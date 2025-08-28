@@ -1,0 +1,180 @@
+# Page snapshot
+
+```yaml
+- link "Skip to content":
+  - /url: "#zak-content"
+- banner:
+  - link "Practice E-Commerce Site":
+    - /url: https://practice.sdetunicorns.com/
+    - img "Practice E-Commerce Site"
+  - paragraph:
+    - link "Practice E-Commerce Site":
+      - /url: https://practice.sdetunicorns.com/
+  - paragraph: SDET Unicorns
+  - navigation:
+    - list:
+      - listitem:
+        - link "Home":
+          - /url: https://practice.sdetunicorns.com/
+      - listitem:
+        - link "About":
+          - /url: https://practice.sdetunicorns.com/about/
+      - listitem:
+        - link "Shop":
+          - /url: https://practice.sdetunicorns.com/shop/
+      - listitem:
+        - link "Blog":
+          - /url: https://practice.sdetunicorns.com/blog/
+      - listitem:
+        - link "Contact":
+          - /url: https://practice.sdetunicorns.com/contact/
+      - listitem:
+        - link "My account":
+          - /url: https://practice.sdetunicorns.com/my-account/
+  - link:
+    - /url: "#"
+    - img
+  - listitem:
+    - link "0":
+      - /url: https://practice.sdetunicorns.com/cart/
+      - img
+      - text: "0"
+  - link "Courses":
+    - /url: https://sdetunicorns.com/courses
+- heading "Blog" [level=1]
+- navigation "Breadcrumbs":
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: https://practice.sdetunicorns.com/
+      - text: /
+    - listitem: Blog
+- main:
+  - article:
+    - heading "IFrame Sample" [level=2]:
+      - link "IFrame Sample":
+        - /url: https://practice.sdetunicorns.com/iframe-sample/
+    - text: Posted on
+    - link "October 29, 2021":
+      - /url: https://practice.sdetunicorns.com/iframe-sample/
+      - time: October 29, 2021
+    - paragraph: IFrame example below can be used for testing purposes.
+    - link "Read More":
+      - /url: https://practice.sdetunicorns.com/iframe-sample/
+      - text: Read More
+      - img
+  - article:
+    - heading "Successful Marketing Ads for Your Business" [level=2]:
+      - link "Successful Marketing Ads for Your Business":
+        - /url: https://practice.sdetunicorns.com/successful-marketing-ads-for-your-business/
+    - text: Posted on
+    - link "June 19, 2020":
+      - /url: https://practice.sdetunicorns.com/successful-marketing-ads-for-your-business/
+      - time: June 19, 2020
+    - paragraph: Lorem ipsum dolor sit amet, Tetur adipiscing elit. Atempor scelerisque olor sit mauris.
+    - link "Read More":
+      - /url: https://practice.sdetunicorns.com/successful-marketing-ads-for-your-business/
+      - text: Read More
+      - img
+  - article:
+    - heading "Let’s Building Your Business from Scratch" [level=2]:
+      - link "Let’s Building Your Business from Scratch":
+        - /url: https://practice.sdetunicorns.com/lets-building-your-business-from-scratch/
+    - text: Posted on
+    - link "June 19, 2020":
+      - /url: https://practice.sdetunicorns.com/lets-building-your-business-from-scratch/
+      - time: June 19, 2020
+    - paragraph: Orem ipsum dolor sit amet, siy dffee consectetur adipiscing elit. Massa iaculis sem aliquet neque.
+    - link "Read More":
+      - /url: https://practice.sdetunicorns.com/lets-building-your-business-from-scratch/
+      - text: Read More
+      - img
+  - article:
+    - heading "The Best Place to Invest Your Money" [level=2]:
+      - link "The Best Place to Invest Your Money":
+        - /url: https://practice.sdetunicorns.com/the-best-place-to-invest-your-money/
+    - text: Posted on
+    - link "June 19, 2020":
+      - /url: https://practice.sdetunicorns.com/the-best-place-to-invest-your-money/
+      - time: June 19, 2020
+    - paragraph: Rem ipsum dolor sit amet, Nem consectetur adipiscing elit. A tempor scelerisque mauris.
+    - link "Read More":
+      - /url: https://practice.sdetunicorns.com/the-best-place-to-invest-your-money/
+      - text: Read More
+      - img
+  - article:
+    - heading "The Big Seminar for Your Right Investment" [level=2]:
+      - link "The Big Seminar for Your Right Investment":
+        - /url: https://practice.sdetunicorns.com/the-big-seminar-for-your-right-investment/
+    - text: Posted on
+    - link "June 18, 2020":
+      - /url: https://practice.sdetunicorns.com/the-big-seminar-for-your-right-investment/
+      - time: June 18, 2020
+    - paragraph: Rem ipsum dolor sit amet, Nem consectetur adipiscing elit. A tempor scelerisque mauris.
+    - link "Read More":
+      - /url: https://practice.sdetunicorns.com/the-big-seminar-for-your-right-investment/
+      - text: Read More
+      - img
+- complementary:
+  - search:
+    - img
+    - text: "Search for:"
+    - searchbox "Search for:"
+  - heading "Recent Posts" [level=2]
+  - list:
+    - listitem:
+      - link "IFrame Sample":
+        - /url: https://practice.sdetunicorns.com/iframe-sample/
+    - listitem:
+      - link "Successful Marketing Ads for Your Business":
+        - /url: https://practice.sdetunicorns.com/successful-marketing-ads-for-your-business/
+    - listitem:
+      - link "Let’s Building Your Business from Scratch":
+        - /url: https://practice.sdetunicorns.com/lets-building-your-business-from-scratch/
+    - listitem:
+      - link "The Best Place to Invest Your Money":
+        - /url: https://practice.sdetunicorns.com/the-best-place-to-invest-your-money/
+    - listitem:
+      - link "The Big Seminar for Your Right Investment":
+        - /url: https://practice.sdetunicorns.com/the-big-seminar-for-your-right-investment/
+- contentinfo:
+  - paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit feugiat sit purus varius. Non in turpis tincidunt nulla. Condimentum ultrices nunc odio ante.
+  - heading "Quick Links" [level=2]
+  - list:
+    - listitem:
+      - link "Home":
+        - /url: https://practice.sdetunicorns.com/
+    - listitem:
+      - link "About":
+        - /url: https://practice.sdetunicorns.com/about/
+    - listitem:
+      - link "Blog":
+        - /url: https://practice.sdetunicorns.com/blog/
+    - listitem:
+      - link "Contact":
+        - /url: https://practice.sdetunicorns.com/contact/
+    - listitem:
+      - link "Support Form":
+        - /url: https://practice.sdetunicorns.com/support-form/
+  - heading "Latest Posts" [level=2]
+  - list:
+    - listitem:
+      - link "IFrame Sample":
+        - /url: https://practice.sdetunicorns.com/iframe-sample/
+    - listitem:
+      - link "Successful Marketing Ads for Your Business":
+        - /url: https://practice.sdetunicorns.com/successful-marketing-ads-for-your-business/
+    - listitem:
+      - link "Let’s Building Your Business from Scratch":
+        - /url: https://practice.sdetunicorns.com/lets-building-your-business-from-scratch/
+  - heading "Contact Us" [level=2]
+  - paragraph: "Ph. : +(123) 456-7890"
+  - paragraph: "Email : first.last@demos.com"
+  - paragraph: "Loc : Moon Street , 446 Jupiter"
+  - paragraph: "Open : 9AM – 6PM (Mon – Fri)"
+  - paragraph:
+    - text: Copyright © 2020
+    - link "SDET Unicorns":
+      - /url: https://sdetunicorns.com/
+- status
+```
